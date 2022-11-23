@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_loaders/custom_loading_indicators/pulse_in_out_progress_indicator.dart';
+import 'custom_loading_indicators/cube_grid_progress_indicator.dart';
+import 'custom_loading_indicators/fading_circle_progress_indicator.dart';
 import 'custom_loading_indicators/three_bounce_progress_indicator.dart';
 import 'custom_loading_indicators/chasing_dots_progress_indicator.dart';
 import 'custom_loading_indicators/double_bounce_progress_indicator.dart';
@@ -50,7 +52,7 @@ class MyHomePage extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const <Widget>[
+          children: <Widget>[
             //     ThreeBounceProgressIndicator( animationType: CircleAnimation.fade,),
             //   ThreeBounceProgressIndicator(),
             //    PulseInOutProgressIndicator(),
@@ -60,6 +62,9 @@ class MyHomePage extends StatelessWidget {
             //  RotatingProgressIndicator(shape: RotatingObjectShape.rectangle,),
             // ChasingDotsProgressIndicator(),
             // WanderingCubesProgressIndicator(),
+            //CubeGridProgressIndicator(),
+            // FadingCircleProgressIndicator( shape: AnimationShape.ellipse,),
+            // FadingCircleProgressIndicator(),
           ],
         ),
       ),
