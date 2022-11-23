@@ -123,8 +123,8 @@ class _FadingCircleProgressIndicatorState
               child: ClipOval(
                 child: Container(
                   color: widget.color ?? Theme.of(context).colorScheme.primary,
-                  height: 5,
-                  width: 10,
+                  height: widget.size / 10,
+                  width: widget.size / 5,
                 ),
               ),
             ));
