@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
-//https://github.com/samarthagarwal/FlutterScreens/tree/master/lib/loaders
-
 enum CircleAnimation { fade, bounce }
 
 //Level 3 difficulty Progress Indicator
